@@ -1,0 +1,11 @@
+# Polyrepo: setiap sub-folder di bawah adalah repository Git independen
+# dengan tim pemilik masing-masing (lihat platform-ci/repos.yaml).
+/design-system/
+/identity-platform/
+/platform-ci/
+/platform-docs/
+/app-template/
+
+# Tooling agen (bukan bagian produk platform)
+/.agents/
+/skills-lock.json
